@@ -9,17 +9,16 @@ body{
     display: inline-block;
     margin: 5px 4px 0;
     text-align: center;
-    background-color:rgb(248, 188, 166);
-    
+    background-color:rgb(248, 188, 166);    
 }
 
 .section-3{
-    height: 500px;
+    height: 430px;
     background-color: coral;
 }
 
 .section-text-team{
-    margin: 2;
+    margin: 5px;
     color: #3e3e3e;
     background: white;
     font-weight: bold;
@@ -114,4 +113,11 @@ body{
     background-blend-mode: soft-light;
 }
 
+.section3-text{
+    margin: 0;
+    color: #3e3e3e;
+    background: white;
+    font-weight: bold;
+    text-align: center;
+}
 
