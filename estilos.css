@@ -1,3 +1,31 @@
+.noticias{
+    background-color: darkseagreen;
+    display: flex;
+    
+}
+
+.contenerdor_noticia{
+    width: 98%;
+    display: flex;
+    display: inline-flex;
+    margin-bottom: 20px;
+               
+}
+
+.contenedor{
+    text-align: justify;
+    justify-content: space-evenly;
+    }
+
+.imagen_noticia{
+    margin: 10px 0;
+    max-width: 300px;
+    max-height: 200px;
+    padding: 0 20px;
+    
+}
+
+
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 1200px;
@@ -50,3 +78,4 @@ body{
 {
     background-blend-mode: soft-light;
 }
+
