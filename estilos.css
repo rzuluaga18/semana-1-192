@@ -1,0 +1,21 @@
+.footer{
+    display: flex;
+    background-color: honeydew;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    
+}
+ .footer__contactos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+} 
+
+.texto{
+    text-align: left;
+    margin: 1%;
+
+}
+
