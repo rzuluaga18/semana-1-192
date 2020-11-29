@@ -1,73 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primera pagina web</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
+
+
 <body>
+
+    <!-- inicio header -->
+    <header>
+        <!-- Inicio header  -->
+        <header class="header">
+
+            <section class="barra-principal">
+
+                <div class="titulo-principal">
+                    <h1>MOTORBIKE</h1>
+                </div>
+
+                <nav class="contenedor-menu">
+                    <!-- Menu  -->
+                    <ul class="menu-principal">
+                        <li class="menu-principal__item"><a href="#"> <strong>Inicio</strong> </a></li>
+                        <li class="menu-principal__item"><a href="#services"><strong>Servicios</strong> </a></li>
+                        <li class="menu-principal__item"><a href="#news"><strong>Noticias</strong> </a></li>
+                        <li class="menu-principal__item"><a href="#team"> <strong>Integrantes</strong> </a></li>
+                    </ul>
+                    <!-- fin menu  -->
+                </nav>
+            </section>
+
+
+            <img class="imagen-baner" src="road.jpg" alt="Imagen Baner" width="1200" height="300">
+        </header>
+        <!-- Fin header -->
+    </header>
+    <!-- fin header -->
+
+    <!-- inicio main -->
+    <main>
+           <!-- Servicios -->
+    <section id="services" class="servicios"> 
+
+        <div class="servicios__contenedor">
+            <h3>Venta</h3>
+            <img src="https://image.freepik.com/foto-gratis/guapo-motorista-casco-manos-moto_1150-10697.jpg" alt="veender"class="img">
+            <p>Tenemos las mejores motocicletas, todos los modelos, todas las gamas y completamentes nuevas para los maantes de la adrenalina y la aventura!</p>
+            <a href="https://motos.mercadolibre.com.co/">Ver motos a la venta>></a>
+            <p> </p>
+        </div>
+
+        <div class="servicios__contenedor">
+            <h3>Alquiler</h3>
+            <img src="https://image.freepik.com/foto-gratis/vista-frontal-casco-motocicleta-sentado-bicicleta_23-2148685303.jpg" alt="alquilar" class="img">
+            <p>Si necesitas una motocicleta de ensueño mientras realizas un recorrido mágico, este es el lugar perfecto para conseguir una por el tiemppo que desees. </p>
+            <a href="https://www.motorentbogota.com/rental/es/">Ver motos para alquilar >></a>
+            <p> </p>
+        </div>
+
+        <div class="servicios__contenedor">
+            <h3>MakeOver</h3>
+            <img src="https://image.freepik.com/foto-gratis/hermosa-chica-pelo-largo-garaje-reparando-motocicleta_1321-1391.jpg" alt="enchular" class="img">
+            <p>Convierte tu motocicleta en una máquina única, completamente personalizada a tu gusto y con los mejores diseñadores y mecánicos del país.</p>
+            <a href="https://noticias.autocosmos.com.mx/2015/03/03/se-descubrio-todo-enchulame-la-maquina-era-una-farsa">Cuéntanos qué quieres crear>></a>
+            <p> </p>
+        </div>
+
+    </section>
+    
+
+
+        <!-- noticias -->
+        <section id="news" class="noticias">
+
+            <!-- inicio bloque 1 -->
+            <div>
+                <div class="contenerdor_noticia">
+                    <div class="imagen_noticia">
+                        <img src="https://teja8.kuikr.com/i6/20201027/2018-KTM-390-Duke-ABS---8100-kms-driven-in-Ghatkopar-West-VB201705171774173-ak_WBP1551022787-1603740129.png"
+                            alt="imagen noticia">
+                    </div>
+                    <div>
+                        <h2>Nueva KTM Duke 200</h2>
+                        <p class="contenedor">una propuesta que puede llegar a revolucionar el segmento de los 200 cc, y
+                            hasta de los 250 cc, pues en cuanto electrónica y ayudas de conducción, la motocicleta
+                            austriaca presenta una propuesta realmente interesante, aunque sin desconocer el apartado de
+                            diseño y motorización.</p>
+                        <a
+                            href="https://www.publimotos.com/mlanzamientos/3838-es-oficial-ya-esta-disponible-la-200-duke-ng">Abrir
+                            >></a>
+                    </div>
+                </div>
+                <div class="contenerdor_noticia">
+                    <div class="imagen_noticia">
+                        <img src="https://ultramotorhn.files.wordpress.com/2019/06/ma.jpg?w=256&h=256&crop=1"
+                            alt="imagen noticia">
+                    </div>
+                    <div>
+                        <h2>¿Qué tan buen motociclista es usted? </h2>
+                        <p>Con un curso compuesto de cuatro módulos, su objetivo es concientizar a los usuarios de estos
+                            vehículos para ayudar a reducir la siniestralidad..</p>
+                        <a href="https://www.motor.com.co/actualidad/industria/buen-motociclista-haga-curso/33913">Abrir
+                            >></a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- fin bloque 1 -->
+
+            <!-- inicio bloque 2 -->
+            <div>
+                <div class="contenerdor_noticia">
+                    <div class="imagen_noticia">
+                        <img src="https://lh3.googleusercontent.com/proxy/hLIpbwj-zWenJVTah3x3fhtCa5xGxEzmLKABDOJBOPsJb8x3f97z56n6V0SbmVKn_KYXPinqE5lcP-vdgNylQawjkVtYOHPDVTbZZPhA815lBkpMFt_HoGCxg3gWTNJlkGAtbVJfwBA"
+                            alt="imagen noticia">
+                    </div>
+                    <div>
+                        <h2>Conozca las Motos más inseguras del País</h2>
+                        <p class="contenedor">El Centro de Innovación para Motociclistas, una empresa privada dedicada a
+                            promover la seguridad de quienes se mueven en dos ruedas en Colombia, se dispuso a evaluar
+                            la seguridad que ofrecen las motos de hasta 190 cm3 que se venden en el país .</p>
+                        <a href="https://www.motor.com.co/actualidad/industria/motos-inseguras-colombia/32684">Abrir
+                            >></a>
+                    </div>
+                </div>
+                <div class="contenerdor_noticia">
+                    <div class="imagen_noticia">
+                        <img src="https://cdn.shoplightspeed.com/shops/619628/files/15159310/moto-gp-19-switch-new.jpg"
+                            alt="imagen noticia">
+                    </div>
+                    <div>
+                        <h2>Un nuevo campeón en Moto GP</h2>
+                        <p>El domingo pasado se llevó a cabo la última jornada del año en el calendario de Moto GP,
+                            dejando como resultado al piloto español en lo más alto del podio, justo por encima del
+                            conductor de Yamaha, Franco Morbidelli y en tercer lugar a Alex Rings</p>
+                        <a
+                            href="https://www.publimotos.com/mactualidad/22-mundo/deportes/3818-un-nuevo-campeon-en-moto-gp">Abrir
+                            >></a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- fin bloque 2 -->
+
+        </section>
+        <!-- fin noticias -->
+        <!-- inicio equipo -->
+        <section id="team" class="section-3">
+            <p class="section3-text"> Equipo</p>
+            <div class="col-team"> 
+                    <img src = "Imagenes/Ramiro.jpg" alt="Persona1" width="150" height="150"> 
+                    
+                    <div>
+                        <h2 class="name-participant-team">
+                            Ramiro Zuluaga
+                        </h2>
+                        <p class="text-participant-team">
+                            Ingenierío electrónico de la Universidad del Quindio, 35 años. Pasatiempo es jugar fútbol.
+                        </p>
+    
+                    </div>
+            </div>
+            
+            <div class="col-team"> 
+                <img src = "Imagenes/Angie.jpg" alt="Persona1" width="75" height="150"> 
+                
+                <div>
+                    <h2 class="name-participant-team">
+                        Angie Benito
+                    </h2>
+                    <p class="text-participant-team">
+                        Estudiante de matemáticas en la Universidad Distrital, 22 años. Pasatiempo es ver series y/o películas</p>
+                </div>
+            </div>
+            <div class="col-team"> 
+                <img src = "Imagenes/Cristiam.jpeg" alt="Persona1" width="150" height="150"> 
+                
+                <div>
+                    <h2 class="name-participant-team">
+                        Cristiam Bustos
+                    </h2>
+                    <p class="text-participant-team">
+                        Estudiante de matemáticasen la Universidad Del Atlántico, 21 años.
+                        Pasatiempo: jugar videojuegos.                               </p>
+                    
+    
+                </div>
+            </div>
+            <div class="col-team"> 
+                <img src = "https://lh3.googleusercontent.com/a-/AOh14GhCBoXeMIrG_hQ1M4y4s7Iky9wAF6zpLzbRYzDNRg=s360-c" alt="Persona1" width="150" height="150"> 
+                
+                <div>
+                    <h2 class="name-participant-team">
+                        Luis Carlos Arrieta
+                    </h2>
+                    <p class="text-participant-team">
+                        Estudiante de Ingeniería de sistemas en la Universidad Nacional, 31 años. Pasatiempo es jugar tenis </p>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- fin equipo -->
+
+
+    </main>
+    <!-- fin main -->
+
     <!-- inicio footer -->
 <footer class="footer">
 
     <section class="footer__hijo">
-    <div class="repositorio">
-        <p>
-        <h2>Reto semana 1</h2><br>
-        Aprender a desarrollar aplicaciones web 
-        <br>
-        <a href="https://github.com/rzuluaga18/semana-1-192.git">link repositorio >></a>
-        </p>
-        <img src="https://www.utp.edu.co/assets/img/escudos/marca_UTP.png" alt="logo UTP">
-    </div >
-    </section>
+ <div class="repositorio">
+     <p>
+     <h2>Reto semana 1</h2><br>
+     Aprender a desarrollar aplicaciones web 
+     <br>
+     <a href="https://github.com/rzuluaga18/semana-1-192.git">link repositorio >></a>
+     </p>
+     <img src="https://www.utp.edu.co/assets/img/escudos/marca_UTP.png" alt="logo UTP">
+ </div >
+ </section>
 
-    <section class="footer__contactos">
-        <div>
-            <div class="texto">
-                <p>Luis Carlos Arrieta Sierra
-                    <br>
-                <strong>Rol:</strong> Analista de Software y Backend.
-                <br>
-                <strong>Contacto:</strong> lcarrietas@unal.edu.co</p>
-            </div>
-            <div class="texto">
-                <p>
-                    Ramiro Andrés Zuluaga Parra
-                    <br>
-                <strong>Rol:</strong> Arquitecto de Software y Frontend.
-                <br>
-                <strong>Contacto:</strong> jrzp18@gmail.com
+ <section class="footer__contactos">
+     <div>
+         <div class="texto">
+             <p>Luis Carlos Arrieta Sierra
+                 <br>
+             <strong>Rol:</strong> Analista de Software y Backend.
+             <br>
+             <strong>Contacto:</strong> lcarrietas@unal.edu.co</p>
+         </div>
+         <div class="texto">
+             <p>
+                 Ramiro Andrés Zuluaga Parra
+                 <br>
+             <strong>Rol:</strong> Arquitecto de Software y Frontend.
+             <br>
+             <strong>Contacto:</strong> jrzp18@gmail.com
 
-                </p>
-            </div>
-        </div>
-        <div>
+             </p>
+         </div>
+     </div>
+     <div>
 
-            <div class="texto">
-                <p>
-                Cristiam David Bustos Fuentes
-                <br>
-                <strong>Rol:</strong> Backend.
-                <br>
-                <strong>Contacto:</strong> cristiambus@gmail.com
-                </p>
-            </div>
-            <div class="texto">
-                <p>
-                Angie Sofía Benito González
-                <br>
-                <strong>Rol:</strong> Frontend y Tester.
-                <br>
-                <strong>Contacto:</strong> angiesofia98@hotmail.com 
-                </p>
-            <div> 
-        </div>
-    </section>
-    
-        
-    
+         <div class="texto">
+             <p>
+             Cristiam David Bustos Fuentes
+             <br>
+             <strong>Rol:</strong> Backend.
+             <br>
+             <strong>Contacto:</strong> cristiambus@gmail.com
+             </p>
+         </div>
+         <div class="texto">
+             <p>
+             Angie Sofía Benito González
+             <br>
+             <strong>Rol:</strong> Frontend y Tester.
+             <br>
+             <strong>Contacto:</strong> angiesofia98@hotmail.com 
+             </p>
+         <div> 
+     </div>
+ </section>
+     
+ 
 </footer>
 <!-- termina footer  -->
+
 </body>
+
+
 </html>
